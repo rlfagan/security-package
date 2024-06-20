@@ -1,0 +1,156 @@
+repo_name: rlfagan/security-package
+report_id: 0f9948c454df82f9be1953409f8901b9
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:03:10+00:00'
+requested_by: zakdma
+provider: github
+branch: develop
+detected_tools_count: 12
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rlfagan/security-package
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rlfagan/security-package
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/security-package
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/security-package
+  detection_source: Repo Metadata
+- name: Magento
+  description: Flexible eCommerce solutions, a vibrant extensions marketplace and
+    an open global ecosystem
+  website_url: http://magento.com/
+  license: OSL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Ecommerce
+  image_url: https://img.stackshare.io/service/1769/wcU6vWxh_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/security-package/blob/develop/ReCaptchaAdminUi/composer.json
+  detection_source: ReCaptchaAdminUi/composer.json
+  last_updated_by: Pavel Bystritsky
+  last_updated_on: 2020-08-07 13:20:33.000000000 Z
+- name: christian-riesen/base32
+  description: Base32 encoder/decoder according to RFC 4648
+  package_url: https://packagist.org/christian-riesen/base32
+  version: '1.3'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rlfagan/security-package/blob/develop/TwoFactorAuth/composer.json
+  detection_source: TwoFactorAuth/composer.json
+  last_updated_by: Riccardo Tempesta
+  last_updated_on: 2020-01-23 11:31:28.000000000 Z
+- name: donatj/phpuseragentparser
+  description: Lightning fast, minimalist PHP UserAgent string parser
+  package_url: https://packagist.org/donatj/phpuseragentparser
+  version: '0.7'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rlfagan/security-package/blob/develop/TwoFactorAuth/composer.json
+  detection_source: TwoFactorAuth/composer.json
+  last_updated_by: Nathan Smith
+  last_updated_on: 2020-05-25 15:12:40.000000000 Z
+- name: endroid/qr-code
+  description: Endroid QR Code
+  package_url: https://packagist.org/endroid/qr-code
+  version: '3.7'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rlfagan/security-package/blob/develop/TwoFactorAuth/composer.json
+  detection_source: TwoFactorAuth/composer.json
+  last_updated_by: Nathan Smith
+  last_updated_on: 2020-04-07 21:56:46.000000000 Z
+- name: google/recaptcha
+  description: Client library for reCAPTCHA
+  package_url: https://packagist.org/google/recaptcha
+  version: '1.2'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rlfagan/security-package/blob/develop/ReCaptchaValidation/composer.json
+  detection_source: ReCaptchaValidation/composer.json
+  last_updated_by: Valerii Naida
+  last_updated_on: 2020-02-28 22:13:39.000000000 Z
+- name: magento/magento-composer-installer
+  description: Composer installer for Magento modules
+  package_url: https://packagist.org/magento/magento-composer-installer
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rlfagan/security-package/blob/develop/TwoFactorAuth/composer.json
+  detection_source: TwoFactorAuth/composer.json
+  last_updated_by: Nathan Smith
+  last_updated_on: 2020-05-25 15:12:40.000000000 Z
+- name: phpseclib/phpseclib
+  description: PHP Secure Communications Library - Pure-PHP implementations of RSA
+  package_url: https://packagist.org/phpseclib/phpseclib
+  version: '2.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rlfagan/security-package/blob/develop/TwoFactorAuth/composer.json
+  detection_source: TwoFactorAuth/composer.json
+  last_updated_by: Nathan Smith
+  last_updated_on: 2020-04-10 19:22:46.000000000 Z
+- name: spomky-labs/otphp
+  description: A PHP library for generating one time passwords according to RFC 4226
+  package_url: https://packagist.org/spomky-labs/otphp
+  version: '10.0'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/rlfagan/security-package/blob/develop/TwoFactorAuth/composer.json
+  detection_source: TwoFactorAuth/composer.json
+  last_updated_by: Nathan Smith
+  last_updated_on: 2020-04-30 15:02:16.000000000 Z
